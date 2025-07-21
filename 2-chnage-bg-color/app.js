@@ -1,9 +1,4 @@
-// creating a dice roll
 
-// const dice_roll = Math.floor(Math.random() * 6) + 1;
-// console.log("The Dice_number is: ", dice_roll);
-
-// car Object
 
 let color = ["red", "green", "blue", "yellow", "pink", "purple", "orange", "greenyellow"];
 
