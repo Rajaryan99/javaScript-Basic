@@ -69,6 +69,11 @@ savetoDb("rajAryan").
     .then((result) => {
         console.log("Promise made to sydney Sweeney too")
         console.log("result of promise: ", result);
+        return savetoDb("kajal");
+    })
+    .then((result) => {
+        console.log("Promise made to kajal too")
+        console.log("result of promise: ", result);
     })
     .catch((error) => {
         console.log("Prmoise was rejected")
