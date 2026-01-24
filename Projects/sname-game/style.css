@@ -10,6 +10,7 @@
 
     --text-primary-color: #f0f0f0;
 
+    /* spacing/padding */
     --space-xs: 4px;
     --space-s: 8px;
     --space-m: 16px;
@@ -17,6 +18,17 @@
     --space-xl: 32px;
     --space-2xl: 40px;
     --space-3xl: 48px;
+
+    /* Border Color */
+    --border-primary-color: #333333;
+
+    /* Border Radius */
+    --border-radious-xs: 4px;
+    --border-radious-sm: 8px;
+    --border-radious-md: 12px;
+    --border-radious-lg: 16px;
+    --border-radious-xl: 20px;
+    --border-radious-2xl: 24px;
     
 }
 
@@ -50,5 +62,6 @@ section .infos{
 
 .info{
     padding: var(--space-s) var(--space-m);
-    border: 1px solid var(--text-primary-color);
+    border: 1px solid var(--border-primary-color);
+    border-radius: var(--border-radious-sm);
 }
