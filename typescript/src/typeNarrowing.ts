@@ -5,3 +5,14 @@ function getCoffee(kind: string | number) {
 
     return `Coffee type: ${kind}`
 }
+
+function orderChai(size: 'small' | 'medium' | 'large' | number) {
+    if (size === 'small') {
+        return `small cutting chai...`
+    }
+    if (size === 'medium' || size === 'large') {
+        return `make Extera chai`
+    }
+
+    return `chai order #${size}`
+}
