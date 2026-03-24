@@ -14,3 +14,16 @@ function serveChai(order: chaiOrder) {
 interface cupsize {
     size: 'small' | 'large'
 }
+
+
+//intersection
+
+type BaseChai = { teaLeaves: number }
+type Extra = { masala: number }
+
+type MasalaChai = BaseChai & Extra
+
+const cup: MasalaChai = {
+    teaLeaves: 1,
+    masala:1
+}
