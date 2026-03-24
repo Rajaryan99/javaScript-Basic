@@ -24,6 +24,6 @@ type Extra = { masala: number }
 type MasalaChai = BaseChai & Extra
 
 const cup: MasalaChai = {
-    teaLeaves: 1,
+    teaLeaves: 2,
     masala:1
 }
