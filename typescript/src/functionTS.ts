@@ -3,3 +3,7 @@ function makeChai(type: string, cups: number) {
 }
 
 makeChai("coffee", 2)
+
+function getChaiPeice(): number{
+    return 25
+}
