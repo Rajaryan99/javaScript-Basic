@@ -14,3 +14,4 @@ const menu: chai[] = [
 
 const chities: readonly string[] = ['Delhi', 'mumbai']
 
+const chaiItems: [string, string, number] = ['lemon', 'sugar', 24]
