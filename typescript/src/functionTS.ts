@@ -11,3 +11,13 @@ function getChaiPeice(): number{
 function orderChai(type?: string) {
     console.log("Your chai is ready.")
 }
+
+
+function makeCoffee(order: {
+    type: string;
+    sugar: number;
+    size: 'small' | 'large'
+
+}): number{
+    return 4
+}
