@@ -16,11 +16,11 @@ let tea: {
     isHot: boolean
 }
 
-tea = {
-    name: "Ginger",
-    price: 190,
-    isHot:true
-}
+// tea = {
+//     name: "Ginger",
+//     price: 190,
+//     isHot:true
+// }
 
 type Tea = {
     name: string;
