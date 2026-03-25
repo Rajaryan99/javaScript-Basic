@@ -7,3 +7,7 @@ makeChai("coffee", 2)
 function getChaiPeice(): number{
     return 25
 }
+
+function orderChai(type?: string) {
+    console.log("Your chai is ready.")
+}
