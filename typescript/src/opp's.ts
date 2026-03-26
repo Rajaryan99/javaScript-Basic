@@ -1,13 +1,26 @@
-class chai{
-    flavour: string;
-    price: number;
+// class chai{
+//     flavour: string;
+//     price: number;
 
-    constructor(flavour: string, price: number) {
-        this.flavour = flavour
-        this.price = price
+//     constructor(flavour: string, price: number) {
+//         this.flavour = flavour
+//         console.log(this)
+//     }
+// }
+
+// const masalaChai = new chai("lemon", 20)
+
+// masalaChai.flavour = 'masala'
+
+class chai {
+    public flavour: string = "Masala"
+
+    private secretIngredients = "Cardamom"
+
+    reveal() {
+        return this.secretIngredients
     }
 }
 
-const masalaChai = new chai()
-
-masalaChai.flavour = 'masala'
+const c = new chai()
+ 
