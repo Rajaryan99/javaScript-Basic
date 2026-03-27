@@ -1,13 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-interface MyButtonProps{
+interface MyButtonProps {
     text: string;
-    onClick: () => void;
+    onClick?: () => void;
 }
 
+
+
 const Button: React.FC<MyButtonProps> = (props) => {
+    const { text, onClick } = props
+
+    const [value, setValue] = useState<number>(0)
     return (
-        <button onClick={props.onClick}>{props.text }</button>
+        <>
+            <h2>{value}</h2>
+            <button onClick={() => setValue(value + 1)}>{text}</button>
+        </>
     )
 }
 
