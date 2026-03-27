@@ -5,16 +5,28 @@ interface MyButtonProps {
     onClick?: () => void;
 }
 
+interface Book {
+    name: string;
+    price: number;
+}
 
 
 const Button: React.FC<MyButtonProps> = (props) => {
-    const { text, onClick } = props
+    const { text } = props
 
-    const [value, setValue] = useState<number>(0)
+    const [value, setValue] = useState<Book>({
+        name: "One",
+        price: 25,
+    })
     return (
         <>
-            <h2>{value}</h2>
-            <button onClick={() => setValue(value + 1)}>{text}</button>
+            <h1>Hello World</h1>
+            <h2>
+                Name: {value.name} of (RS.{value.price})
+            </h2>
+            <button onClick={() => setValue({ name: 'Two', price: 30 })}>{text}
+            
+            </button>
         </>
     )
 }

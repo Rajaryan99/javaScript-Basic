@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-     <Button onClick={() => alert("Thanks for Clicking!!")} text='click Me!'/>
+     <Button  text='click Me!'/>
 
     </>
   )
