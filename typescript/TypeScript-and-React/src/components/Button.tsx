@@ -1,8 +1,13 @@
 import React from 'react'
 
-const Button: React.FC = () => {
+interface MyButtonProps{
+    text: string;
+    onClick: () => void;
+}
+
+const Button: React.FC<MyButtonProps> = (props) => {
     return (
-        <button>Click me!</button>
+        <button onClick={props.onClick}>{props.text }</button>
     )
 }
 
