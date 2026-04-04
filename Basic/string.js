@@ -13,4 +13,9 @@
 const newString = name.slice(-7, 4)
 // const newString = name.substring(0,2)
 
-console.log(newString)
+// console.log(newString)
+
+
+const string2 = "          raj            "
+console.log(string2)
+console.log(string2.trim())
