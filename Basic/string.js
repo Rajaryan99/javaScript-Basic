@@ -19,3 +19,10 @@ const newString = name.slice(-7, 4)
 const string2 = "          raj            "
 console.log(string2)
 console.log(string2.trim())
+
+const url = 'http://rajaryan.com/raj77%aryan'
+
+console.log(url.replace('77%', "_"))
+console.log(url.split("."))
+
+
