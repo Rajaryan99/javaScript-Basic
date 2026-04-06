@@ -8,7 +8,7 @@ function one(){
 
     // console.log(website)
 
-    // two() // clouser the inner function can access the out function variable
+    two() // clouser the inner function can access the out function variable
 }
 
-one()
+// one()
