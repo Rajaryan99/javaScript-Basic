@@ -10,4 +10,6 @@ const course  = {
 
 const {name, price, Authore} = course;
 
-console.log(Authore)
+// console.log(Authore)
+
+
