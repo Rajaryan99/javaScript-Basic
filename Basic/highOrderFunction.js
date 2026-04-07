@@ -23,5 +23,21 @@ map.set('EU', "Europe")
 // console.log(map)
 
 for(const [key, value] of map){
-    console.log(`short is ${key} and full name is ${value}`)
+    // console.log(`short is ${key} and full name is ${value}`)
 }
+
+
+const obj = {
+    js: "javascript",
+    cpp: "c++",
+    rb: "ruby",
+    swift: "swift as app"
+}
+
+
+for (const key in obj) {
+   console.log(`${key} shortcut is for ${obj[key]}`)
+    
+    
+}
+
