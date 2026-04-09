@@ -41,7 +41,7 @@ const books = [
 let userBooks = books.filter((bk) => bk.genre.toLowerCase() === "history"
 
 )
-userBooks = books.filter((bk) => bk.publish > 2000 )
+userBooks = books.filter((bk) => bk.publish > 2000 &&   bk.genre.toLowerCase() === "history" )
 
 
 console.log(userBooks)
