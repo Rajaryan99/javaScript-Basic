@@ -14,11 +14,11 @@ const coding  = ['js', 'ruby', 'java', 'python', 'cpp']
 const nums = [1, 2, 3, 4, 5, 6];
 
 
-const newNums = nums.filter((num) => {
-    const greateThen4 = num > 4
-    return greateThen4
+const newNums = nums.filter((num) => (
+     num > 4
+    // return greateThen4
     
-})
+))
 
 console.log(newNums)
 
