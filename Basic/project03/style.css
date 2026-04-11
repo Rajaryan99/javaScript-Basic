@@ -1,12 +1,41 @@
 * {
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
     margin: 0;
+}
+
+html, body {
+    height: 100%;
 }
 
 .main {
     height: 100vh;
     width: 100%;
-    background-image: url(assets/emmanuel-denier-YiXsjwJKXmo-unsplash.jpg);
+    background-image: url(assets/jonatan-pie-h8nxGssjQXs-unsplash.jpg);
     background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+#banner {
+    color: #ffff;
+    margin-top: 6rem;
+}
+
+#clock {
+    display: flex;
+
+    height: 80px;
+    width: 170px;
+    border: 1px solid white;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
