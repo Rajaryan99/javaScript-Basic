@@ -10,3 +10,33 @@ body, html {
     justify-content: center;
     flex-direction: column;
 }
+
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#guess {
+    font-size: 3rem;
+}
+
+.guessFiled {
+    height: 50px;
+    width: 250px;
+    border-radius: 20px;
+    border: none;
+}
+
+.guessSubmit{
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    background-color: orange;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+}
