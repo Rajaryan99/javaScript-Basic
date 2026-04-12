@@ -1,0 +1,12 @@
+body, html {
+    height: 100vh;
+    background-color: rgb(76, 75, 75);
+    color: #ffff;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
