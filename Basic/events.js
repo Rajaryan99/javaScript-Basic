@@ -15,9 +15,9 @@ secImg.addEventListener('click', (e) => {
 
     document.getElementById('images').addEventListener('click', (e) => {
         console.log('elements inside UL was clicked!!')
-    }, true)
+    })
 
     document.getElementById('fourth').addEventListener('click', (e) => {
         console.log('fourth image was clicked')
         e.stopPropagation()
-    }, true)
+    })
