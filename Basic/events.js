@@ -6,6 +6,7 @@ secImg.addEventListener('click', (e) => {
     alert("HEY, THIS IS SECOND IMAGE")
 })
 
-secImg.addEventListener('click', (e) => {
-    alert("Hey, this is 3rd image")
-})
+
+ document.getElementById('third').addEventListener('click', () => {
+        alert("Clicked the 3rd project")
+    }, true)
