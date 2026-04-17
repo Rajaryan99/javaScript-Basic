@@ -7,6 +7,7 @@ secImg.addEventListener('click', (e) => {
 })
 
 
- document.getElementById('third').addEventListener('click', () => {
+ document.getElementById('third').addEventListener('click', (e) => {
+    e.preventDefault()
         alert("Clicked the 3rd project")
     }, true)
