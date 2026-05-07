@@ -28,5 +28,7 @@ let img = document.getElementById('images')
     img.addEventListener('click', (e) => {
             console.log(e.target.parentNode)
             let removeIt = e.target.parentNode
-            removeIt.remove();
+            // removeIt.remove();
+
+            removeIt.parentNode.removeChild(removeIt)
     })
