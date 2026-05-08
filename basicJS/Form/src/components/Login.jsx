@@ -1,5 +1,7 @@
 import { useEffect, useRef } from 'react'
 import './Auth.css'
+import { FaCopy } from "react-icons/fa6";
+
 
 function Login() {
 
@@ -15,8 +17,8 @@ useEffect(() => {
 
 const copyMail = () => {
     const email = emailRef.current.textContent;
-    navigator.clipboard.writeText(email);
-    alert('copied!')
+navigator.clipboard.writeText(email)    
+alert('copied!')
 }
 
 
@@ -29,7 +31,7 @@ const copyMail = () => {
 
     <div className='main'>
 
-    <div id='email' onClick={copyMail} ref={emailRef}>singhrajaryan66@gmail.com</div>
+    <div id='email' onClick={copyMail} ref={emailRef}>singhrajaryan66@gmail.com  <FaCopy className='copybtn' /></div>
 </div>
     </>
   )
