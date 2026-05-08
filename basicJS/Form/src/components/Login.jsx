@@ -13,6 +13,12 @@ useEffect(() => {
 
 
 
+const copyMail = () => {
+    const email = emailRef.current.textContent;
+    navigator.clipboard.writeText(email);
+    alert('copied!')
+}
+
 
 
 
@@ -23,7 +29,7 @@ useEffect(() => {
 
     <div className='main'>
 
-    <div id='email' ref={emailRef}>singhrajaryan66@gmail.com</div>
+    <div id='email' onClick={copyMail} ref={emailRef}>singhrajaryan66@gmail.com</div>
 </div>
     </>
   )
